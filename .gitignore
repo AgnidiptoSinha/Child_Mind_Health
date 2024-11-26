@@ -1,0 +1,53 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python virtual environment
+env/
+venv/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Data files
+# *.csv
+*.parquet
+*.xlsx
+*.xls
+
+# Local data folders
+series_test.parquet/
+series_train.parquet/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large model files or saved models
+*.pkl
+*.h5
+*.model
+*.joblib
+*.save
+
+# Logs
+*.log
