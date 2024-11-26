@@ -1,18 +1,21 @@
 # Child Mind Health ML Project
 
-This project focuses on analyzing and predicting child mental health outcomes using machine learning techniques.
+> This project is based on the [Child Mind Institute - Detect Problematic Internet Usage](https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use) Kaggle competition.
+
+This project focuses on analyzing and predicting child mental health outcomes using machine learning techniques. The goal is to detect problematic internet usage patterns in young people to enable earlier and more effective mental health interventions.
 
 ## Project Structure
 
 ```
 ├── .ipynb_checkpoints/
+├── series_test.parquet/
+├── series_train.parquet/
 ├── Child_Mind_Health.ipynb     # Main analysis notebook
+├── Preparing_Data.ipynb        # Data preprocessing notebook
+├── avg_parquet.csv            # Preprocessed data
 ├── data_dictionary.csv        # Feature descriptions
 ├── train.csv                  # Training dataset
 ├── test.csv                   # Test dataset
-├── series_train.parquet/       # Training parquet files (Accelerometer data)
-├── series_test.parquet/        # Testing parquet files (Accelerometer data)
-├── avg_parquet.csv            # Preprocessed data
 ├── requirements.txt           # Python dependencies
 └── README.md
 ```
